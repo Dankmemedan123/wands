@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+    modId="elementalwands"
+    version="1.0.0"
+    displayName="Elemental Wands"
+    description='''
+        Three powerful elemental wands.
+        Inferno: Ignites enemies in a cone.
+        Glacial: Freezes all nearby enemies.
+        Storm: Calls lightning at your crosshair.
+    '''
+
+[[dependencies.elementalwands]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.elementalwands]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
